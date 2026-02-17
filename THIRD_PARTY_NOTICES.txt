@@ -1,0 +1,95 @@
+THIRD PARTY NOTICES
+===================
+
+This project includes code from the following open source projects:
+
+---
+
+1. RP2040-Button by Turi Scandurra
+    Repository: https://github.com/turinturambar/RP2040-Button
+    License: MIT
+    
+    This library is a derivative work of pico-button.c and pico-gpio-interrupt.c 
+    by Jake Rosoman (https://github.com/jkroso/pico-button.c and 
+    https://github.com/jkroso/pico-gpio-interrupt.c), both MIT licensed.
+    
+    Copyright (c) 2023 Turi Scandurra
+    Copyright (c) 2021 Jake Rosoman (original works)
+
+---
+
+2. pico-ssd1306 by Harbys
+    Repository: https://github.com/Harbys/pico-ssd1306/
+    License: BSD 3-Clause
+    
+    Copyright (c) 2021, Harbys
+    All rights reserved.
+
+---
+
+LICENSE TEXTS
+=============
+
+MIT License
+-----------
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+BSD 3-Clause License
+--------------------
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+    list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+    contributors may be used to endorse or promote products derived from
+    this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+---
+
+NOTE ON LICENSING
+=================
+
+This file represents a best-effort compilation of license information from 
+upstream dependencies. License information for Jake Rosoman's original libraries 
+was determined from the clib.json declaration at:
+https://github.com/jkroso/pico-button.c/blob/main/clib.json
+
+Where formal LICENSE files were absent in upstream repositories, information has 
+been gathered from source file headers, README attributions, and package metadata.
