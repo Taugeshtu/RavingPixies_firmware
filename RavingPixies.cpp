@@ -261,10 +261,10 @@ bool TryUseDownButton(void) {
 // Setup buttons with the button library.
 void SetupButtons(void) {
     // The library sets internal pull-ups.
-    create_button(PIN_BUTTON_UP, OnButtonStateChange);
-    create_button(PIN_BUTTON_DOWN, OnButtonStateChange);
-    create_button(PIN_BUTTON_NEXT, OnButtonStateChange);
-    create_button(PIN_BUTTON_PREV, OnButtonStateChange);
+    create_button_active_high(PIN_BUTTON_UP, OnButtonStateChange);
+    create_button_active_high(PIN_BUTTON_DOWN, OnButtonStateChange);
+    create_button_active_high(PIN_BUTTON_NEXT, OnButtonStateChange);
+    create_button_active_high(PIN_BUTTON_PREV, OnButtonStateChange);
 }
 
 // Setup additional inputs.
