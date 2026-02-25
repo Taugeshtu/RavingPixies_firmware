@@ -6,7 +6,7 @@ This project includes code from the following open source projects:
 ---
 
 1. RP2040-Button by Turi Scandurra
-    Repository: https://github.com/turinturambar/RP2040-Button
+    Repository: https://github.com/TuriSc/RP2040-Button/
     License: MIT
     
     This library is a derivative work of pico-button.c and pico-gpio-interrupt.c 

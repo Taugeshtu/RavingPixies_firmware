@@ -1,6 +1,6 @@
 [submodule "dependencies/button"]
 	path = dependencies/button
-	url = git@github.com:TuriSc/RP2040-Button.git
+	url = git@github.com:Taugeshtu/RP2040-Button.git
 [submodule "dependencies/ssd1306"]
 	path = dependencies/ssd1306
 	url = git@github.com:Harbys/pico-ssd1306.git
